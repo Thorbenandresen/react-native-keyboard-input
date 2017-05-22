@@ -1,6 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 import {StyleSheet, Platform, Dimensions, NativeModules, NativeEventEmitter, DeviceEventEmitter, processColor} from 'react-native';
-import {KeyboardTrackingView} from 'react-native-keyboard-tracking-view';
+import {KeyboardTrackingView} from '@thorbenandresen/react-native-keyboard-tracking-view';
 import CustomKeyboardView from './CustomKeyboardView';
 
 const IsIOS = Platform.OS === 'ios';
